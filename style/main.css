@@ -85,6 +85,11 @@ header nav a:hover{
     margin-right: 8px;
 }
 
+.botao a{
+    text-decoration: none;
+    color: white;
+}
+
 .container{
     margin-left: 30px;
 }
@@ -102,3 +107,5 @@ header nav a:hover{
 .carrosel-filmes{
     margin-top: 5px;
 }
+
+/**parei na aula 9**/
