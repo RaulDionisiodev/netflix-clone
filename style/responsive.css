@@ -16,4 +16,8 @@
     .descricao{
         width: 50%;
     }
+
+    #modal-Principal{
+        width: 50%;
+    }
 }

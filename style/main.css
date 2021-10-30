@@ -108,4 +108,17 @@ header nav a:hover{
     margin-top: 5px;
 }
 
+#modal-Principal{
+    width: 40%;
+}
+
+.fechar{
+    margin-top: 15px;
+}
+
+.fechar a{
+    text-decoration: none;
+    color: white;
+}
+
 /**parei na aula 9**/
