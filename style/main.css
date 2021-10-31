@@ -108,7 +108,7 @@ header nav a:hover{
     margin-top: 5px;
 }
 
-#modal-Principal{
+.modal{
     width: 40%;
 }
 
@@ -120,5 +120,3 @@ header nav a:hover{
     text-decoration: none;
     color: white;
 }
-
-/**parei na aula 9**/

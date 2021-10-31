@@ -19,9 +19,9 @@
             <h2 class="logo">NETFLIX</h2>
             <nav>
                 <a href="#">Início</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+                <a class="popup-modal" href="#modal-info">Séries</a>
+                <a class="popup-modal" href="#modal-info">Filmes</a>
+                <a class="popup-modal" href="#modal-info">Documentários</a>
             </nav>
         </div>
     </header>
@@ -104,13 +104,20 @@
         </div>
     </div>
 
-    <div id="modal-Principal" class="mfp-hide white-popup-block">
+    <div id="modal-Principal" class="mfp-hide white-popup-block modal">
         <h1>House of Cards</h1>
         <p>O congressista Francis Underwood e sua mulher, Claire, 
             fazem de tudo para conquistar seus objetivos, não importa o que aconteça. 
             Um mundo político recheado de ganância, corrupção e luxúria na capital Washington.</p>
         <p class="fechar"><a class="popup-modal-dismiss" href="#">Fechar</a></p>
     </div>
+
+    <div id="modal-info" class="mfp-hide white-popup-block modal">
+        <h1>Em breve</h1>
+        <p>Esse modulo do sistema se encontra em construção</p>
+        <p class="fechar"><a class="popup-modal-dismiss" href="#">Fechar</a></p>
+    </div>
+
 
     <script src="https://kit.fontawesome.com/c8cf039698.js" crossorigin="anonymous"></script>
     <script src="/js/owl/jquery.min.js"></script>
